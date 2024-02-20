@@ -24,7 +24,7 @@ class _SplashscreenState extends State<Splashscreen> {
         child: InkWell(
           onTap: () {
             setState(() {
-              Navigator.of(context).pushNamed('/home');
+              Navigator.of(context).pushReplacementNamed('/home');
             });
           },
           child: Container(
