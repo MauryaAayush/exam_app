@@ -1,6 +1,7 @@
 import 'package:exam_app/view/cartscreen.dart';
 import 'package:exam_app/view/homescreen.dart';
 import 'package:exam_app/view/productcreen.dart';
+import 'package:exam_app/view/splashscreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
 
       routes:  {
-        '/' : (context) =>   const Homescreen(),
+        '/' : (context) =>   const Splashscreen(),
+        '/home' : (context) =>   const Homescreen(),
         '/second' : (context) =>   const Productscreen(),
         '/third' : (context) =>   const Cartscreen(),
       },

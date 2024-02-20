@@ -53,7 +53,7 @@ class _ProductscreenState extends State<Productscreen> {
                           count = 0;
                         });
 
-                        Navigator.of(context).pushReplacementNamed('/');
+                        Navigator.of(context).pushReplacementNamed('/home');
                       },
                       child: const CircleAvatar(
                         backgroundColor: Color(0xFF35383F),
